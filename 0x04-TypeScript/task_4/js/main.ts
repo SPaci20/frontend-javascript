@@ -4,13 +4,13 @@
 /// <reference path="subjects/React.ts" />
 /// <reference path="subjects/Java.ts" />
 
-// Export constants
-export const cpp = new Subjects.Cpp();
-export const java = new Subjects.Java();
-export const react = new Subjects.React();
+// Export constants - FIXED VERSION
+export const cpp = new Cpp();
+export const java = new Java();
+export const react = new React();
 
-// Export teacher object
-export const cTeacher: Subjects.Teacher = {
+// Export teacher object - FIXED VERSION
+export const cTeacher: Teacher = {
   firstName: 'John',
   lastName: 'Doe',
   experienceTeachingC: 10
